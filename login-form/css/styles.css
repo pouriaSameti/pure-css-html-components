@@ -11,3 +11,13 @@ html{
     justify-content: center;
     align-items: center;
 }
+
+
+.login-form{
+    width: 96rem;
+    height: 67.9rem;
+
+    border-radius: 2rem;
+
+    background-color: #fff;
+}
