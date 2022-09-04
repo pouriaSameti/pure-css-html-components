@@ -17,6 +17,9 @@ html{
     width: 96rem;
     height: 67.9rem;
 
+    display: grid;
+    grid-template-columns: repeat(2, 48rem);
+
     border-radius: 2rem;
 
     background-color: #fff;
