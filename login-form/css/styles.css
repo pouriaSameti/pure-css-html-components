@@ -18,9 +18,15 @@ html{
     height: 67.9rem;
 
     display: grid;
-    grid-template-columns: repeat(2, 48rem);
+    grid-template: 67.9rem / repeat(2, 48rem);
 
     border-radius: 2rem;
 
     background-color: #fff;
+}
+
+.login-form{
+
+    justify-items: center;
+    align-items: center;
 }
