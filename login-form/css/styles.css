@@ -1,0 +1,143 @@
+html{
+    font-size: 62.5%;
+}
+
+.main-screen{
+    width: 100%;
+    height: 95rem;
+    background: linear-gradient(214deg, rgba(201,80,193,1) 46%, rgba(69,88,208,1) 70%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.login-form{
+    width: 96rem;
+    height: 67.9rem;
+
+    display: grid;
+    grid-template: 67.9rem / repeat(2, 48rem);
+
+    border-radius: 2rem;
+
+    background-color: #fff;
+}
+
+.login-form{
+
+    justify-items: center;
+    align-items: center;
+}
+
+.input-information{
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    font-family: Poppins-Regular, 'Arial Narrow', Arial, sans-serif;
+}
+
+.input-information h2{
+    
+    font-family:Poppins-Bold,'Times New Roman', Times, serif;
+    font-size: 3rem;
+
+    margin-top: 0;
+    margin-bottom: 5.3rem;
+}
+
+.input{
+    width: 28.4rem;
+    height: 5rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    background-color: #e6e6e6;
+    margin-bottom: 1rem;
+
+    padding: 0 2rem;
+    border-radius: 10rem;
+}
+
+.input-email, .input-password{
+
+    padding: 0.9rem 0.75rem;
+    background-color: #e6e6e6;
+    border: 0;
+    font-size: 2rem;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.login-btn{
+
+    width: 32rem;
+    height: 5rem;
+
+    border-radius: 10rem;
+    border: 0;
+
+    margin-top: 1.7rem;
+
+    background-color: #57b847;
+    color: #fff;
+
+    cursor: pointer;
+
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in;
+}
+
+.login-btn:hover{   
+    background-color: #18013a;
+    font-weight: 800;
+}
+
+.login-btn:focus{
+    background-color: #18013a;
+    font-weight: 800;
+    outline: none;
+}
+
+.login-btn:active{
+    background-color: #640ee4;
+}
+
+.forget-info{
+    
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.create-acc{
+
+    margin-top: 12rem;
+    font-size: 1.5rem;
+
+    text-transform: capitalize;
+}
+
+.create-acc::before{
+    content: "->";
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url('../fonts/poppins/Poppins-Regular.ttf'); 
+  }
+
+  @font-face {
+    font-family: Poppins-Bold;
+    src: url('../fonts/poppins/Poppins-Bold.ttf'); 
+}
