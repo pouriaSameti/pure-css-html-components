@@ -92,11 +92,22 @@ textarea:focus, input:focus{
     cursor: pointer;
 
     font-size: 2rem;
+    transition: all 0.2s ease-in;
 }
 
 .login-btn:hover{   
-    background-color: #38922a;
+    background-color: #18013a;
     font-weight: 800;
+}
+
+.login-btn:focus{
+    background-color: #18013a;
+    font-weight: 800;
+    outline: none;
+}
+
+.login-btn:active{
+    background-color: #640ee4;
 }
 
 @font-face {
