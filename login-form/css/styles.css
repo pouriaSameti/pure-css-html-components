@@ -48,6 +48,17 @@ html{
     font-size: 3rem;
 }
 
+.input{
+    width: 28.4rem;
+    height: 5rem;
+
+    background-color: #e6e6e6;
+    margin-bottom: 1rem;
+
+    padding: 0 2rem;
+    border-radius: 10rem;
+}
+
 @font-face {
     font-family: Poppins-Regular;
     src: url('../fonts/poppins/Poppins-Regular.ttf'); 
@@ -56,4 +67,4 @@ html{
   @font-face {
     font-family: Poppins-Bold;
     src: url('../fonts/poppins/Poppins-Bold.ttf'); 
-  }
+}
