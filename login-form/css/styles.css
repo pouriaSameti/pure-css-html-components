@@ -52,6 +52,11 @@ html{
     width: 28.4rem;
     height: 5rem;
 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
     background-color: #e6e6e6;
     margin-bottom: 1rem;
 
