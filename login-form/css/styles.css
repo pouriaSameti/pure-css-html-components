@@ -31,6 +31,17 @@ html{
     align-items: center;
 }
 
+.input-information{
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    font-family: Poppins-Regular, 'Arial Narrow', Arial, sans-serif;
+}
+
 .input-information h2{
     
     font-family:Poppins-Bold,'Times New Roman', Times, serif;
