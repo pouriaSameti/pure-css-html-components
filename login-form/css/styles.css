@@ -64,7 +64,7 @@ html{
     border-radius: 10rem;
 }
 
-.input-email{
+.input-email, .input-password{
 
     padding: 0.9rem 0.75rem;
     background-color: #e6e6e6;
