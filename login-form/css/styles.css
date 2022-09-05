@@ -120,6 +120,18 @@ textarea:focus, input:focus{
     font-size: 1.3rem;
 }
 
+.create-acc{
+
+    margin-top: 12rem;
+    font-size: 1.5rem;
+
+    text-transform: capitalize;
+}
+
+.create-acc::before{
+    content: "->";
+}
+
 @font-face {
     font-family: Poppins-Regular;
     src: url('../fonts/poppins/Poppins-Regular.ttf'); 
