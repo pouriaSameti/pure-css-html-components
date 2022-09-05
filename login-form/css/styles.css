@@ -64,6 +64,18 @@ html{
     border-radius: 10rem;
 }
 
+.input-email{
+
+    padding: 0.9rem 0.75rem;
+    background-color: #e6e6e6;
+    border: 0;
+    font-size: 2rem;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
 @font-face {
     font-family: Poppins-Regular;
     src: url('../fonts/poppins/Poppins-Regular.ttf'); 
