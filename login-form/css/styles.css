@@ -31,6 +31,12 @@ html{
     align-items: center;
 }
 
+.input-information h2{
+    
+    font-family:Poppins-Bold,'Times New Roman', Times, serif;
+    font-size: 3rem;
+}
+
 @font-face {
     font-family: Poppins-Regular;
     src: url('../fonts/poppins/Poppins-Regular.ttf'); 
